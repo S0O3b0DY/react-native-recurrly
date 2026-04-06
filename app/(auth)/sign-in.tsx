@@ -7,7 +7,7 @@ export default function signIn() {
     <View>
       <Text>signIn</Text>
       <Link href="/(auth)/sign-up">Create an Account</Link>
-      <Link href="/(tabs)/index">Create an Account</Link>
+      <Link href="/">Create an Account</Link>
     </View>
   )
 }
