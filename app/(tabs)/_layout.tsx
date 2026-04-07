@@ -12,8 +12,8 @@ export default function TabLayout() {
   const insets = useSafeAreaInsets()
 
   function TabIcon({ focused, icon }: TabIconProps) {
-    return <View className='tabs-icon'>
-      <View className={clsx("tabs-pill", focused && "tabs-active")}>'
+    return <View className="tabs-icon">
+      <View className={clsx("tabs-pill", focused && "tabs-active")}>
         <Image
           source={icon}
           className='tabs-glyph'

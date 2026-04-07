@@ -6,7 +6,7 @@ export default function Onboarding() {
   return (
     <View>
       <Text>Onboarding</Text>
-      <Link href="/" >index</Link>
+      <Link href="/">Go to Home</Link>
     </View>
   )
 }
